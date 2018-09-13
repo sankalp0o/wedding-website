@@ -1,0 +1,361 @@
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+
+body {
+	background-color: #1c1c28;
+}
+
+.container-outer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+
+/*
+  ========================================
+  General typography
+  ========================================
+*/
+
+p, h1, h2, h3, h4, h5, h6, li {
+	font-family: Cairo;
+	color: #fff;
+	margin: 10px;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 38px;
+	color: #F8E71C;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-top: 0;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+li {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: justify;
+	padding-left: 20px;
+}
+
+h5 {
+	letter-spacing: 2px;
+}
+
+h6 {
+	color: #F8E71C;
+}
+
+a {
+	text-decoration: none;
+	font-family: Cairo;
+	color: #F8E71C;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: #F8E71C;
+}
+
+
+
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+
+.container-top {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	background-color: #1c1c28
+}
+
+.container-top img {
+	width: 140px;
+}
+
+.container-top p {
+	margin-top: 30px;
+}
+
+
+.arrow {
+	text-align: center;
+	margin: 8% 0;
+}
+
+.arrow img {
+	width: 20px;
+}
+.bounce {
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+}
+@-webkit-keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+	-webkit-transform: translateY(0);
+	        transform: translateY(0);
+	}
+	40% {
+	-webkit-transform: translateY(-10px);
+	        transform: translateY(-10px);
+	}
+	60% {
+	-webkit-transform: translateY(-5px);
+	        transform: translateY(-5px);
+	}
+}
+@keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+	-webkit-transform: translateY(0);
+	        transform: translateY(0);
+	}
+	40% {
+	-webkit-transform: translateY(-10px);
+	        transform: translateY(-10px);
+	}
+	60% {
+	-webkit-transform: translateY(-5px);
+	        transform: translateY(-5px);
+	}
+}
+
+
+/*
+  ========================================
+  Case Studies
+  ========================================
+*/
+#work {
+	background-color: #222233;
+}
+
+.cs-half {
+	vertical-align: middle;
+}
+
+.cs-title {
+	display: inline-block;
+}
+
+.ocs-title h5{
+	line-height: 20px;
+	margin: 0;
+}
+
+.cs-div-img {
+	background-color: #1C1C28;
+	height: 300px;
+}
+
+.cs-img {
+	height: 300px;
+	width: 300px;
+}
+
+.cs-div-outer {
+	vertical-align: top;
+	padding: 0 10px;
+}
+
+.ocs-div-outer {
+	vertical-align: top;
+	padding: 0 10px;
+}
+
+.cs-div {
+	vertical-align: top;
+	background-color: #1C1C2A;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.ocs-div {
+	vertical-align: top;
+	background-color: #1C1C2A;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.cs-div:hover {
+	background-color: #12121A;
+}
+
+.ocs-div:hover {
+	background-color: #12121A;
+}
+
+.cs-thumb {
+	width: 48px;
+	height: 48px;
+	vertical-align: sub;
+}
+
+.ocs-thumb {
+	width: 48px;
+	height: 48px;
+	vertical-align: sub;
+	margin-bottom: 14px;
+}
+
+.cs-div h6 {
+	display: inline-block;
+	margin: 20px 0 0 0;
+}
+
+.cs-icon {
+	width: 14px;
+	height: 9px;
+}
+
+.cs-tag {
+	background-color: #12121A;
+	display: inline-block;
+	margin-right: 8px;
+	margin-left: -4px;
+	margin-top: 4px;
+}
+
+.cs-description {
+	font-size: 14px;
+	margin-left: 0;
+}
+
+.cs-tag-text {
+	font-size: 11px;
+	margin: 2px 8px;
+}
+
+
+
+
+/*
+  ========================================
+  Bio
+  ========================================
+*/
+
+
+
+.heading {
+	font-size: 20px;
+	color: #F8E71C;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+
+.description {
+	max-width: inherit;
+}
+
+.year {
+	font-style: italic;
+	float: right;
+	margin-top: 0;
+}
+
+ul.description {
+	list-style-type: circle;
+}
+
+.section-heading {
+	margin: 80px 0 60px 10px;
+	text-align: center;
+	font-size: 24px;
+}
+
+
+.skills {
+	font-size: 14px;
+}
+
+.heading-inactive {
+	margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-heading {
+    border-bottom: 1px solid #FFF; 
+    line-height:0.1em; 
+    margin:100px 0 40px 10px;
+  }
+
+  .section-heading span { 
+    background:#223; 
+    padding:0 10px 0 0; 
+  }
+
+}
+
+.education {
+}
+
+
+.bio {
+	background-color: #1c1c28;
+}
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+
+.footer-link {
+	font-weight: 300;
+	line-height: 2em;
+	letter-spacing: 2px;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+
+.contact {
+	margin-bottom: 0px;
+}
+
+
+.contact h3 {
+	margin-top: 10px;
+}
+
+.new-section {
+	margin: 100px 0 10px 10px;
+}
+
+.links {
+}
