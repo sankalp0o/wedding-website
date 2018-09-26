@@ -55,6 +55,11 @@ li {
 	padding-left: 20px;
 }
 
+h4 {
+	color: #F8E71C;
+
+}
+
 h5 {
 	letter-spacing: 2px;
 }
@@ -165,102 +170,6 @@ a:hover, a:focus {
 	background-color: #222233;
 }
 
-.cs-half {
-	vertical-align: middle;
-}
-
-.cs-title {
-	display: inline-block;
-}
-
-.ocs-title h5{
-	line-height: 20px;
-	margin: 0;
-}
-
-.cs-div-img {
-	background-color: #1C1C28;
-	height: 300px;
-}
-
-.cs-img {
-	height: 300px;
-	width: 300px;
-}
-
-.cs-div-outer {
-	vertical-align: top;
-	padding: 0 10px;
-}
-
-.ocs-div-outer {
-	vertical-align: top;
-	padding: 0 10px;
-}
-
-.cs-div {
-	vertical-align: top;
-	background-color: #1C1C2A;
-	padding: 20px;
-	margin-bottom: 20px;
-}
-
-.ocs-div {
-	vertical-align: top;
-	background-color: #1C1C2A;
-	padding: 20px;
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-.cs-div:hover {
-	background-color: #12121A;
-}
-
-.ocs-div:hover {
-	background-color: #12121A;
-}
-
-.cs-thumb {
-	width: 48px;
-	height: 48px;
-	vertical-align: sub;
-}
-
-.ocs-thumb {
-	width: 48px;
-	height: 48px;
-	vertical-align: sub;
-	margin-bottom: 14px;
-}
-
-.cs-div h6 {
-	display: inline-block;
-	margin: 20px 0 0 0;
-}
-
-.cs-icon {
-	width: 14px;
-	height: 9px;
-}
-
-.cs-tag {
-	background-color: #12121A;
-	display: inline-block;
-	margin-right: 8px;
-	margin-left: -4px;
-	margin-top: 4px;
-}
-
-.cs-description {
-	font-size: 14px;
-	margin-left: 0;
-}
-
-.cs-tag-text {
-	font-size: 11px;
-	margin: 2px 8px;
-}
 
 
 
@@ -325,40 +234,16 @@ ul.description {
 
 }
 
-.education {
+
+
+
+
+.schedule-item {
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 
 .bio {
 	background-color: #1c1c28;
-}
-/*
-  ========================================
-  Contact
-  ========================================
-*/
-
-.footer-link {
-	font-weight: 300;
-	line-height: 2em;
-	letter-spacing: 2px;
-	font-size: 14px;
-	margin-left: 10px;
-}
-
-
-.contact {
-	margin-bottom: 0px;
-}
-
-
-.contact h3 {
-	margin-top: 10px;
-}
-
-.new-section {
-	margin: 100px 0 10px 10px;
-}
-
-.links {
 }
