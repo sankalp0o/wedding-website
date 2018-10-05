@@ -166,7 +166,7 @@ a:hover, a:focus {
   Case Studies
   ========================================
 */
-#venue, #schedule {
+#venue, #schedule, #rsvp {
 	background-color: #222233;
 }
 
@@ -241,9 +241,4 @@ ul.description {
 .schedule-item {
 	margin-bottom: 30px;
 	margin-top: 30px;
-}
-
-
-.bio {
-	background-color: #1c1c28;
 }
