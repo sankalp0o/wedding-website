@@ -15,6 +15,11 @@ body {
 	margin-bottom: 100px;
 }
 
+.container-outer-other {
+	display: flex;
+	justify-content: center;
+}
+
 
 /*
   ========================================
@@ -79,7 +84,7 @@ h6 {
 
 a {
 	text-decoration: none;
-	font-family: Cairo;
+	font-family: Barlow;
 	color: #D1004B;
 	letter-spacing: 1px;
 	font-size: 14px;
